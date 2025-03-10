@@ -1,0 +1,373 @@
+/* general styling  */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+/* top navigation bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#Asmr {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0f2182;
+    margin-top: -10px;
+}
+
+nav .links {
+    margin-left: 100px;
+}
+
+nav .links a {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* right top login buttom styling  */
+.login {
+    margin-left: 50px;
+}
+
+.login button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: -10px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #0f2182;
+    transition: ease-in 0.3s;
+}
+
+.login a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/* main content image and big text styling  */
+.main-box {
+    margin-top: 160px;
+    margin-left: 6%;
+    width: 700px;
+}
+
+.main-box h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.main-box span {
+    color: #0f2182;
+}
+
+.main-box p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.cart {
+    background-color: #000000;
+    color: #ffffff;
+    width: 180px;
+    padding: 6px;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+
+.cart i {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 14px;
+    border-radius: 50px;
+}
+
+.cart span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.cart:hover {
+    background-color: #0f2182;
+    transition: ease-in 0.3s;
+}
+
+.image img {
+    height: 600px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 90px;
+}
+
+/* reposivenes top main content  */
+@media only screen and (max-width:1205px) {
+    .main-box h1 {
+        display: none;
+        display: inline-block;
+    }
+
+    .main-box p {
+        display: none;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .cart {
+        display: none;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:805px) {
+    nav .links {
+        display: none;
+    }
+}
+
+/* second main content and small card styling  */
+.next-box {
+    margin-top: 13%;
+}
+
+.next-box h2 {
+    margin-left: 6%;
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    width: 94%;
+}
+
+.small-card {
+    width: 45%;
+    margin-left: 6%;
+    margin-top: 40px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 20px 30px rgb(195, 192, 192);
+    transition: all 0.3s ease;
+}
+
+.small-card .logo i {
+    font-size: 30px;
+}
+
+.small-card .logo span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.super h2 {
+    margin-left: 6%;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+/* small button bar after small cards */
+.catogery {
+    margin-top: 20px;
+    margin-left: 6%;
+}
+
+.catogery a {
+    padding: 10px;
+    margin-left: 8px;
+    font-size: 15px;
+    border-radius: 14px;
+    font-weight: 500;
+    background-color: rgb(226, 220, 220);
+}
+
+.catogery a:hover {
+    background-color: #0f2182;
+    color: #ffffff;
+    transition: ease-in 0.3s;
+}
+
+/* main all big cards after third main contentr */
+.main-card {
+    margin-top: 80px;
+    margin-left: 6%;
+    display: flex;
+}
+
+.big-card {
+    width: 300px;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgb(164, 161, 161);
+    margin-right: 50px;
+}
+
+.big-card img {
+    margin-left: 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 17px;
+    box-shadow: 0 10px 30px rgb(195, 192, 192);
+    object-fit: cover;
+}
+
+.abs h5 {
+    font-size: 18px;
+    margin: 16px;
+}
+
+.btc i {
+    font-size: 18px;
+    color: #0f2182;
+    margin-left: 16px;
+}
+
+.btc {
+    color: #0f2182;
+}
+
+.time span {
+    font-size: 12px;
+    padding: 4px;
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.time {
+    margin-left: 16px;
+    padding-top: 20px;
+}
+
+.time a {
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.view button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.view button:hover {
+    background-color: #0f2182;
+    color: #ffffff;
+    transition: ease 0.8s;
+}
+
+/* last long bar card with image person data  */
+.sellers {
+    display: flex;
+    margin-right: 6%;
+    margin-top: 30px;
+}
+
+.data {
+    margin-left: 6%;
+    padding: 10px;
+    width: 320px;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+}
+
+.data img {
+    width: 64px;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* footer last contener */
+footer {
+    margin-top: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 220px;
+    padding-top: 60px;
+}
+
+.last-foot {
+    display: flex;
+}
+
+.left-cont {
+    margin-left: 6%;
+    width: 800px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.right-all {
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.right a {
+    color: #afa9a9;
+    padding: 12px;
+}
+
+.right a:hover {
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.handle {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.handle i {
+    font-size: 25px;
+    padding: 5px;
+    color: #afa9a9;
+    ;
+}
+
+.handle i:hover {
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.right-all span {
+    font-size: 12px;
+}
